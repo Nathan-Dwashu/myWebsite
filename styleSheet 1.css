@@ -1,0 +1,163 @@
+body {
+    color: azure;
+    background-image: url("https://c.tenor.com/2dvFaD9IVWEAAAAC/miles-morales.gif");
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aqua;
+}
+
+img {
+    border-radius: 20px;
+}
+
+iframe {
+    border-radius: 25px;
+}
+
+nav a {
+    color: aquamarine;
+    background-color: black;
+    padding: 15px;
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 2%;
+    text-align: center;
+    width: 25%;
+    border-radius: 15px;
+}
+
+nav a:hover {
+    background-color: yellow;
+    color: blue;
+    border: 2px solid black;
+    text-decoration: underline;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+nav ul {
+    padding: 0;
+    margin-top: 10px;
+    width: 70%;
+}
+
+nav li {
+    display: inline;
+}
+
+#anim {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation-name: icon;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+    flex: 2;
+}
+
+@keyframes icon {
+    0% {
+        border-radius: 10px;
+        background-color: black;
+        border: 5px solid white;
+        width: 120px;
+        height: 120px;
+        left: 56pc;
+        top: 5.6pc;
+    }
+    25% {
+        border-radius: 50px;
+        background-color: rgb(85, 3, 3);
+        border: 5px dotted white;
+        width: 125px;
+        height: 125px;
+        left: 60pc;
+        top: 5.6pc;
+    }
+    50% {
+        border-radius: 80px;
+        background-color: rgb(82, 67, 3);
+        border: 5px dashed white;
+        width: 130px;
+        height: 130px;
+        left: 65pc;
+        top: 5.6pc;
+    }
+    75% {
+        border-radius: 50px;
+        background-color: rgb(6, 163, 27);
+        border: 5px dotted white;
+        width: 135px;
+        height: 135px;
+        left: 70pc;
+        top: 5.6pc;
+    }
+    100% {
+        border-radius: 30px;
+        background-color: rgb(43, 10, 194);
+        border: 5px dashed white;
+        width: 140px;
+        height: 140px;
+        left: 74pc;
+        top: 5.6pc;
+    }
+}
+
+#anim2 {
+    width: 70px;
+    height: 70px;
+    animation-name: icon2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+    margin: 20px;
+    flex: 1;
+}
+
+@keyframes icon2 {
+    0% {
+        border-radius: 10px;
+        background-color: blue;
+        border: 5px solid lightblue;
+        width: 70px;
+        height: 70px;       
+    }
+    25% {
+        border-radius: 50px;
+        background-color: red;
+        border: 5px dotted lightblue;
+        width: 75px;
+        height: 75px;       
+    }
+    50% {
+        border-radius: 80px;
+        background-color: yellow;
+        border: 5px dashed lightblue;
+        width: 80px;
+        height: 80px;       
+    }
+    75% {
+        border-radius: 50px;
+        background-color: green;
+        border: 5px dotted lightblue;
+        width: 85px;
+        height: 85px;        
+    }
+    100% {
+        border-radius: 30px;
+        background-color: orange;
+        border: 5px dashed lightblue;
+        width: 90px;
+        height: 90px;
+    }
+}
